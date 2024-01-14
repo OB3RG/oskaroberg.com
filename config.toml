@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[params]
+user = "home"
+hostname = "oskaroberg.com"
+published = false
+readingTime = false
+
+    [params.author]
+        name = "Oskar Öberg"
+        email = "junk@oskaroberg.com"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
